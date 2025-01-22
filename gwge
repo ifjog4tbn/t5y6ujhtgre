@@ -1,0 +1,2162 @@
+local AdminPanel = Instance.new("ScreenGui")
+local Container = Instance.new("Frame")
+local Togglers = Instance.new("Frame")
+local Admin = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Icon = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local Button = Instance.new("ImageButton")
+local UICorner_2 = Instance.new("UICorner")
+local Urgency = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local Menus = Instance.new("Frame")
+local SpecialGui = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local Icon_2 = Instance.new("ImageLabel")
+local Splitter = Instance.new("Frame")
+local AcademySecurityUnit = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local Thumbnail = Instance.new("ImageLabel")
+local Pattern = Instance.new("ImageLabel")
+local Button_2 = Instance.new("ImageButton")
+local UICorner_6 = Instance.new("UICorner")
+local BasicTraining = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local Thumbnail_2 = Instance.new("ImageLabel")
+local Pattern_2 = Instance.new("ImageLabel")
+local Button_3 = Instance.new("ImageButton")
+local UICorner_8 = Instance.new("UICorner")
+local Civilian = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local Thumbnail_3 = Instance.new("ImageLabel")
+local Pattern_3 = Instance.new("ImageLabel")
+local Button_4 = Instance.new("ImageButton")
+local UICorner_10 = Instance.new("UICorner")
+local PoliceDepartment = Instance.new("Frame")
+local UICorner_11 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+local Thumbnail_4 = Instance.new("ImageLabel")
+local Pattern_4 = Instance.new("ImageLabel")
+local Button_5 = Instance.new("ImageButton")
+local UICorner_12 = Instance.new("UICorner")
+local PoliceHeadquarters = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local TextLabel_7 = Instance.new("TextLabel")
+local Thumbnail_5 = Instance.new("ImageLabel")
+local Pattern_5 = Instance.new("ImageLabel")
+local Button_6 = Instance.new("ImageButton")
+local UICorner_14 = Instance.new("UICorner")
+local SpecialWeaponsTactics = Instance.new("Frame")
+local UICorner_15 = Instance.new("UICorner")
+local TextLabel_8 = Instance.new("TextLabel")
+local Thumbnail_6 = Instance.new("ImageLabel")
+local Pattern_6 = Instance.new("ImageLabel")
+local Button_7 = Instance.new("ImageButton")
+local UICorner_16 = Instance.new("UICorner")
+local TrafficUnit = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
+local TextLabel_9 = Instance.new("TextLabel")
+local Thumbnail_7 = Instance.new("ImageLabel")
+local Pattern_7 = Instance.new("ImageLabel")
+local Button_8 = Instance.new("ImageButton")
+local UICorner_18 = Instance.new("UICorner")
+local TrainingDiscipline = Instance.new("Frame")
+local UICorner_19 = Instance.new("UICorner")
+local TextLabel_10 = Instance.new("TextLabel")
+local Thumbnail_8 = Instance.new("ImageLabel")
+local Pattern_8 = Instance.new("ImageLabel")
+local Button_9 = Instance.new("ImageButton")
+local UICorner_20 = Instance.new("UICorner")
+local AlwaysDay = Instance.new("Frame")
+local UICorner_21 = Instance.new("UICorner")
+local TextLabel_11 = Instance.new("TextLabel")
+local Switch = Instance.new("Frame")
+local UIPadding = Instance.new("UIPadding")
+local UICorner_22 = Instance.new("UICorner")
+local Status = Instance.new("Frame")
+local UICorner_23 = Instance.new("UICorner")
+local Button_10 = Instance.new("ImageButton")
+local UICorner_24 = Instance.new("UICorner")
+local TextLabel_12 = Instance.new("TextLabel")
+local Pattern_9 = Instance.new("ImageLabel")
+local ChooseRank = Instance.new("Frame")
+local UICorner_25 = Instance.new("UICorner")
+local TextLabel_13 = Instance.new("TextLabel")
+local Pattern_10 = Instance.new("ImageLabel")
+local Button_11 = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local Button_12 = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local Button_13 = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local Button_14 = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local Button_15 = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local Button_16 = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local Button_17 = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local Button_18 = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local Button_19 = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local Button_20 = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local DisableShields = Instance.new("Frame")
+local UICorner_36 = Instance.new("UICorner")
+local TextLabel_14 = Instance.new("TextLabel")
+local Switch_2 = Instance.new("Frame")
+local UIPadding_2 = Instance.new("UIPadding")
+local UICorner_37 = Instance.new("UICorner")
+local Status_2 = Instance.new("Frame")
+local UICorner_38 = Instance.new("UICorner")
+local Button_21 = Instance.new("ImageButton")
+local UICorner_39 = Instance.new("UICorner")
+local TextLabel_15 = Instance.new("TextLabel")
+local Pattern_11 = Instance.new("ImageLabel")
+local TagAuth = Instance.new("Frame")
+local UICorner_40 = Instance.new("UICorner")
+local TextLabel_16 = Instance.new("TextLabel")
+local Switch_3 = Instance.new("Frame")
+local UIPadding_3 = Instance.new("UIPadding")
+local UICorner_41 = Instance.new("UICorner")
+local Status_3 = Instance.new("Frame")
+local UICorner_42 = Instance.new("UICorner")
+local Button_22 = Instance.new("ImageButton")
+local UICorner_43 = Instance.new("UICorner")
+local TextLabel_17 = Instance.new("TextLabel")
+local Pattern_12 = Instance.new("ImageLabel")
+local TagKos = Instance.new("Frame")
+local UICorner_44 = Instance.new("UICorner")
+local TextLabel_18 = Instance.new("TextLabel")
+local Switch_4 = Instance.new("Frame")
+local UIPadding_4 = Instance.new("UIPadding")
+local UICorner_45 = Instance.new("UICorner")
+local Status_4 = Instance.new("Frame")
+local UICorner_46 = Instance.new("UICorner")
+local Button_23 = Instance.new("ImageButton")
+local UICorner_47 = Instance.new("UICorner")
+local TextLabel_19 = Instance.new("TextLabel")
+local Pattern_13 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+
+-- Properties
+
+AdminPanel.Name = "AdminPanel"
+AdminPanel.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+AdminPanel.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+AdminPanel.DisplayOrder = 2
+AdminPanel.ResetOnSpawn = false
+
+Container.Name = "Container"
+Container.Parent = AdminPanel
+Container.BackgroundColor3 = Color3.new(1, 1, 1)
+Container.BackgroundTransparency = 1
+Container.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Container.Size = UDim2.new(1, 350, 1, 350)
+
+Togglers.Name = "Togglers"
+Togglers.Parent = Container
+Togglers.BackgroundColor3 = Color3.new(1, 1, 1)
+Togglers.BackgroundTransparency = 1
+Togglers.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Togglers.BorderSizePixel = 0
+Togglers.Size = UDim2.new(1, 0, 1, 0)
+
+Admin.Name = "Admin"
+Admin.Parent = Togglers
+Admin.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+Admin.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Admin.BorderSizePixel = 0
+Admin.Position = UDim2.new(0.273751646, 0, 0.00700000115, 0)
+Admin.Size = UDim2.new(0.0416666679, 0, 0.0740740746, 0)
+
+UICorner.Parent = Admin
+UICorner.CornerRadius = UDim.new(0, 6)
+
+Icon.Name = "Icon"
+Icon.Parent = Admin
+Icon.AnchorPoint = Vector2.new(0.5, 0.5)
+Icon.BackgroundColor3 = Color3.new(1, 1, 1)
+Icon.BackgroundTransparency = 1
+Icon.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Icon.Position = UDim2.new(0.499999762, 0, 0.375, 0)
+Icon.Size = UDim2.new(0.699999988, 0, 0.699999988, 0)
+Icon.Image = "rbxassetid://76488595247670"
+Icon.ScaleType = Enum.ScaleType.Fit
+
+TextLabel.Parent = Admin
+TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel.BackgroundColor3 = Color3.new(0, 0, 0)
+TextLabel.BackgroundTransparency = 1
+TextLabel.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel.BorderSizePixel = 0
+TextLabel.LayoutOrder = 1
+TextLabel.Position = UDim2.new(0.5, 0, 0.774999976, 0)
+TextLabel.Size = UDim2.new(1, 0, 0.163888633, 0)
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "Admin"
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 23
+TextLabel.TextWrapped = true
+
+Button.Name = "Button"
+Button.Parent = Admin
+Button.AnchorPoint = Vector2.new(0.5, 0.5)
+Button.BackgroundColor3 = Color3.new(1, 1, 1)
+Button.BackgroundTransparency = 1
+Button.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Button.Position = UDim2.new(0.5, 0, 0.5, 0)
+Button.Size = UDim2.new(1, 0, 1, 0)
+Button.ImageTransparency = 1
+
+UICorner_2.Parent = Button
+UICorner_2.CornerRadius = UDim.new(0, 6)
+
+Urgency.Name = "Urgency"
+Urgency.Parent = Admin
+Urgency.AnchorPoint = Vector2.new(0.5, 0.5)
+Urgency.BackgroundColor3 = Color3.new(0.588235, 0, 0.0784314)
+Urgency.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Urgency.BorderSizePixel = 0
+Urgency.LayoutOrder = 1
+Urgency.Position = UDim2.new(1, 0, 1, 0)
+Urgency.Size = UDim2.new(0.219999999, 0, 0.219999999, 0)
+Urgency.Visible = false
+Urgency.Font = Enum.Font.FredokaOne
+Urgency.Text = "!"
+Urgency.TextColor3 = Color3.new(1, 1, 1)
+Urgency.TextScaled = true
+Urgency.TextSize = 23
+Urgency.TextWrapped = true
+
+UICorner_3.Parent = Urgency
+UICorner_3.CornerRadius = UDim.new(1, 0)
+
+UIAspectRatioConstraint.Parent = Urgency
+
+Menus.Name = "Menus"
+Menus.Parent = Container
+Menus.BackgroundColor3 = Color3.new(1, 1, 1)
+Menus.BackgroundTransparency = 1
+Menus.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Menus.BorderSizePixel = 0
+Menus.Size = UDim2.new(1, 0, 1, 0)
+Menus.Visible = false
+
+SpecialGui.Name = "SpecialGui"
+SpecialGui.Parent = Menus
+SpecialGui.AnchorPoint = Vector2.new(0.5, 0.5)
+SpecialGui.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+SpecialGui.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+SpecialGui.BorderSizePixel = 0
+SpecialGui.ClipsDescendants = true
+SpecialGui.Position = UDim2.new(0.296928078, 0, 0.314279586, 0)
+SpecialGui.Size = UDim2.new(0.340522915, 0, 0.446082115, 0)
+
+UICorner_4.Parent = SpecialGui
+UICorner_4.CornerRadius = UDim.new(0, 6)
+
+TextLabel_2.Parent = SpecialGui
+TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_2.BackgroundColor3 = Color3.new(0, 0, 0)
+TextLabel_2.BackgroundTransparency = 1
+TextLabel_2.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.LayoutOrder = 1
+TextLabel_2.Position = UDim2.new(0.314206362, 0, 0.0725636259, 0)
+TextLabel_2.Size = UDim2.new(0.453125, 0, 0.0639885291, 0)
+TextLabel_2.Font = Enum.Font.FredokaOne
+TextLabel_2.Text = "Darkhacker Exploit"
+TextLabel_2.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 23
+TextLabel_2.TextWrapped = true
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+Icon_2.Name = "Icon"
+Icon_2.Parent = SpecialGui
+Icon_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Icon_2.BackgroundColor3 = Color3.new(1, 1, 1)
+Icon_2.BackgroundTransparency = 1
+Icon_2.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Icon_2.Position = UDim2.new(0.0499610566, 0, 0.0756992847, 0)
+Icon_2.Size = UDim2.new(0.0781250075, 0, 0.0639885291, 0)
+Icon_2.Image = "rbxassetid://5634209659"
+Icon_2.ScaleType = Enum.ScaleType.Fit
+
+Splitter.Name = "Splitter"
+Splitter.Parent = SpecialGui
+Splitter.AnchorPoint = Vector2.new(0.5, 0.5)
+Splitter.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+Splitter.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Splitter.BorderSizePixel = 0
+Splitter.Position = UDim2.new(0.5, 0, 0.14399001, 0)
+Splitter.Size = UDim2.new(1.10000002, 0, 0.0109999999, 0)
+
+AcademySecurityUnit.Name = "Academy Security Unit"
+AcademySecurityUnit.Parent = SpecialGui
+AcademySecurityUnit.AnchorPoint = Vector2.new(0.5, 0.5)
+AcademySecurityUnit.BackgroundColor3 = Color3.new(0.384314, 0.145098, 0.819608)
+AcademySecurityUnit.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+AcademySecurityUnit.BorderSizePixel = 0
+AcademySecurityUnit.ClipsDescendants = true
+AcademySecurityUnit.LayoutOrder = 5
+AcademySecurityUnit.Position = UDim2.new(0.236807242, 0, 0.252350539, 0)
+AcademySecurityUnit.Size = UDim2.new(0.145382911, 0, 0.205721021, 0)
+
+UICorner_5.Parent = AcademySecurityUnit
+UICorner_5.CornerRadius = UDim.new(0, 6)
+
+TextLabel_3.Parent = AcademySecurityUnit
+TextLabel_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_3.BackgroundColor3 = Color3.new(0, 0, 0)
+TextLabel_3.BackgroundTransparency = 1
+TextLabel_3.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.LayoutOrder = 1
+TextLabel_3.Position = UDim2.new(0.498708963, 0, 0.171821579, 0)
+TextLabel_3.Size = UDim2.new(0.845648646, 0, 0.150000006, 0)
+TextLabel_3.Font = Enum.Font.FredokaOne
+TextLabel_3.Text = "ASU"
+TextLabel_3.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 23
+TextLabel_3.TextStrokeTransparency = 0
+TextLabel_3.TextWrapped = true
+TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
+
+Thumbnail.Name = "Thumbnail"
+Thumbnail.Parent = AcademySecurityUnit
+Thumbnail.AnchorPoint = Vector2.new(0.5, 0.5)
+Thumbnail.BackgroundColor3 = Color3.new(1, 1, 1)
+Thumbnail.BackgroundTransparency = 1
+Thumbnail.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Thumbnail.Position = UDim2.new(0.497238666, 0, 0.970000029, 0)
+Thumbnail.Size = UDim2.new(1.41859281, 0, 1.45679331, 0)
+Thumbnail.Image = "http://www.roblox.com/asset/?id=9202058206"
+Thumbnail.ScaleType = Enum.ScaleType.Fit
+
+Pattern.Name = "Pattern"
+Pattern.Parent = AcademySecurityUnit
+Pattern.AnchorPoint = Vector2.new(0.5, 0.5)
+Pattern.BackgroundColor3 = Color3.new(0, 0, 0)
+Pattern.BackgroundTransparency = 1
+Pattern.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Pattern.Position = UDim2.new(0.5, 0, 0.5, 0)
+Pattern.Size = UDim2.new(1, 0, 1, 0)
+Pattern.ZIndex = 0
+Pattern.Image = "rbxassetid://300134974"
+Pattern.ImageColor3 = Color3.new(0, 0, 0)
+Pattern.ImageTransparency = 0.8500000238418579
+Pattern.ScaleType = Enum.ScaleType.Tile
+Pattern.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern.TileSize = UDim2.new(0, 30, 0, 30)
+
+Button_2.Name = "Button"
+Button_2.Parent = AcademySecurityUnit
+Button_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Button_2.BackgroundColor3 = Color3.new(1, 1, 1)
+Button_2.BackgroundTransparency = 1
+Button_2.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Button_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+Button_2.Size = UDim2.new(1, 0, 1, 0)
+Button_2.ImageTransparency = 1
+
+UICorner_6.Parent = Button_2
+UICorner_6.CornerRadius = UDim.new(0, 6)
+
+BasicTraining.Name = "Basic Training"
+BasicTraining.Parent = SpecialGui
+BasicTraining.AnchorPoint = Vector2.new(0.5, 0.5)
+BasicTraining.BackgroundColor3 = Color3.new(0.321569, 0.486275, 0.682353)
+BasicTraining.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+BasicTraining.BorderSizePixel = 0
+BasicTraining.ClipsDescendants = true
+BasicTraining.LayoutOrder = 2
+BasicTraining.Position = UDim2.new(0.082925044, 0, 0.252350539, 0)
+BasicTraining.Size = UDim2.new(0.145382866, 0, 0.205721021, 0)
+
+UICorner_7.Parent = BasicTraining
+UICorner_7.CornerRadius = UDim.new(0, 6)
+
+TextLabel_4.Parent = BasicTraining
+TextLabel_4.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_4.BackgroundColor3 = Color3.new(0, 0, 0)
+TextLabel_4.BackgroundTransparency = 1
+TextLabel_4.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.LayoutOrder = 1
+TextLabel_4.Position = UDim2.new(0.498708963, 0, 0.171821579, 0)
+TextLabel_4.Size = UDim2.new(0.845648646, 0, 0.150000006, 0)
+TextLabel_4.Font = Enum.Font.FredokaOne
+TextLabel_4.Text = "Basic Training"
+TextLabel_4.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 23
+TextLabel_4.TextStrokeTransparency = 0
+TextLabel_4.TextWrapped = true
+TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+
+Thumbnail_2.Name = "Thumbnail"
+Thumbnail_2.Parent = BasicTraining
+Thumbnail_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Thumbnail_2.BackgroundColor3 = Color3.new(1, 1, 1)
+Thumbnail_2.BackgroundTransparency = 1
+Thumbnail_2.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Thumbnail_2.Position = UDim2.new(0.64755547, 0, 0.969869971, 0)
+Thumbnail_2.Size = UDim2.new(1.41859281, 0, 1.45679331, 0)
+Thumbnail_2.Image = "http://www.roblox.com/asset/?id=9201965166"
+Thumbnail_2.ScaleType = Enum.ScaleType.Fit
+
+Pattern_2.Name = "Pattern"
+Pattern_2.Parent = BasicTraining
+Pattern_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Pattern_2.BackgroundColor3 = Color3.new(0, 0, 0)
+Pattern_2.BackgroundTransparency = 1
+Pattern_2.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Pattern_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+Pattern_2.Size = UDim2.new(1, 0, 1, 0)
+Pattern_2.ZIndex = 0
+Pattern_2.Image = "rbxassetid://300134974"
+Pattern_2.ImageColor3 = Color3.new(0, 0, 0)
+Pattern_2.ImageTransparency = 0.8999999761581421
+Pattern_2.ScaleType = Enum.ScaleType.Tile
+Pattern_2.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern_2.TileSize = UDim2.new(0, 30, 0, 30)
+
+Button_3.Name = "Button"
+Button_3.Parent = BasicTraining
+Button_3.AnchorPoint = Vector2.new(0.5, 0.5)
+Button_3.BackgroundColor3 = Color3.new(1, 1, 1)
+Button_3.BackgroundTransparency = 1
+Button_3.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Button_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+Button_3.Size = UDim2.new(1, 0, 1, 0)
+Button_3.ImageTransparency = 1
+
+UICorner_8.Parent = Button_3
+UICorner_8.CornerRadius = UDim.new(0, 6)
+
+Civilian.Name = "Civilian"
+Civilian.Parent = SpecialGui
+Civilian.AnchorPoint = Vector2.new(0.5, 0.5)
+Civilian.BackgroundColor3 = Color3.new(0.227451, 0.490196, 0.0823529)
+Civilian.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Civilian.BorderSizePixel = 0
+Civilian.ClipsDescendants = true
+Civilian.LayoutOrder = 1
+Civilian.Position = UDim2.new(0.240314677, 0, 0.693973422, 0)
+Civilian.Size = UDim2.new(0.145382866, 0, 0.205721021, 0)
+
+UICorner_9.Parent = Civilian
+UICorner_9.CornerRadius = UDim.new(0, 6)
+
+TextLabel_5.Parent = Civilian
+TextLabel_5.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_5.BackgroundColor3 = Color3.new(0, 0, 0)
+TextLabel_5.BackgroundTransparency = 1
+TextLabel_5.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.LayoutOrder = 1
+TextLabel_5.Position = UDim2.new(0.498708963, 0, 0.171821579, 0)
+TextLabel_5.Size = UDim2.new(0.845648646, 0, 0.150000006, 0)
+TextLabel_5.Font = Enum.Font.FredokaOne
+TextLabel_5.Text = "Civilian"
+TextLabel_5.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 23
+TextLabel_5.TextStrokeTransparency = 0
+TextLabel_5.TextWrapped = true
+TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
+
+Thumbnail_3.Name = "Thumbnail"
+Thumbnail_3.Parent = Civilian
+Thumbnail_3.AnchorPoint = Vector2.new(0.5, 0.5)
+Thumbnail_3.BackgroundColor3 = Color3.new(1, 1, 1)
+Thumbnail_3.BackgroundTransparency = 1
+Thumbnail_3.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Thumbnail_3.Position = UDim2.new(0.64755547, 0, 1.01733434, 0)
+Thumbnail_3.Size = UDim2.new(1.41859281, 0, 1.45679331, 0)
+Thumbnail_3.Image = "http://www.roblox.com/asset/?id=8876935864"
+Thumbnail_3.ScaleType = Enum.ScaleType.Fit
+
+Pattern_3.Name = "Pattern"
+Pattern_3.Parent = Civilian
+Pattern_3.AnchorPoint = Vector2.new(0.5, 0.5)
+Pattern_3.BackgroundColor3 = Color3.new(0, 0, 0)
+Pattern_3.BackgroundTransparency = 1
+Pattern_3.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Pattern_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+Pattern_3.Size = UDim2.new(1, 0, 1, 0)
+Pattern_3.ZIndex = 0
+Pattern_3.Image = "rbxassetid://300134974"
+Pattern_3.ImageColor3 = Color3.new(0, 0, 0)
+Pattern_3.ImageTransparency = 0.8999999761581421
+Pattern_3.ScaleType = Enum.ScaleType.Tile
+Pattern_3.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern_3.TileSize = UDim2.new(0, 30, 0, 30)
+
+Button_4.Name = "Button"
+Button_4.Parent = Civilian
+Button_4.AnchorPoint = Vector2.new(0.5, 0.5)
+Button_4.BackgroundColor3 = Color3.new(1, 1, 1)
+Button_4.BackgroundTransparency = 1
+Button_4.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Button_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+Button_4.Size = UDim2.new(1, 0, 1, 0)
+Button_4.ImageTransparency = 1
+
+UICorner_10.Parent = Button_4
+UICorner_10.CornerRadius = UDim.new(0, 6)
+
+PoliceDepartment.Name = "Police Department"
+PoliceDepartment.Parent = SpecialGui
+PoliceDepartment.AnchorPoint = Vector2.new(0.5, 0.5)
+PoliceDepartment.BackgroundColor3 = Color3.new(0.129412, 0.329412, 0.72549)
+PoliceDepartment.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+PoliceDepartment.BorderSizePixel = 0
+PoliceDepartment.ClipsDescendants = true
+PoliceDepartment.LayoutOrder = 3
+PoliceDepartment.Position = UDim2.new(0.395784914, 0, 0.476742715, 0)
+PoliceDepartment.Size = UDim2.new(0.145382866, 0, 0.205721021, 0)
+
+UICorner_11.Parent = PoliceDepartment
+UICorner_11.CornerRadius = UDim.new(0, 6)
+
+TextLabel_6.Parent = PoliceDepartment
+TextLabel_6.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_6.BackgroundColor3 = Color3.new(0, 0, 0)
+TextLabel_6.BackgroundTransparency = 1
+TextLabel_6.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.LayoutOrder = 1
+TextLabel_6.Position = UDim2.new(0.498708963, 0, 0.171821579, 0)
+TextLabel_6.Size = UDim2.new(0.845648646, 0, 0.150000006, 0)
+TextLabel_6.Font = Enum.Font.FredokaOne
+TextLabel_6.Text = "Police Dept"
+TextLabel_6.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 23
+TextLabel_6.TextStrokeTransparency = 0
+TextLabel_6.TextWrapped = true
+TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+
+Thumbnail_4.Name = "Thumbnail"
+Thumbnail_4.Parent = PoliceDepartment
+Thumbnail_4.AnchorPoint = Vector2.new(0.5, 0.5)
+Thumbnail_4.BackgroundColor3 = Color3.new(1, 1, 1)
+Thumbnail_4.BackgroundTransparency = 1
+Thumbnail_4.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Thumbnail_4.Position = UDim2.new(0.64755547, 0, 1.01733434, 0)
+Thumbnail_4.Size = UDim2.new(1.41859281, 0, 1.45679331, 0)
+Thumbnail_4.Image = "http://www.roblox.com/asset/?id=9201890291"
+Thumbnail_4.ScaleType = Enum.ScaleType.Fit
+
+Pattern_4.Name = "Pattern"
+Pattern_4.Parent = PoliceDepartment
+Pattern_4.AnchorPoint = Vector2.new(0.5, 0.5)
+Pattern_4.BackgroundColor3 = Color3.new(0, 0, 0)
+Pattern_4.BackgroundTransparency = 1
+Pattern_4.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Pattern_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+Pattern_4.Size = UDim2.new(1, 0, 1, 0)
+Pattern_4.ZIndex = 0
+Pattern_4.Image = "rbxassetid://300134974"
+Pattern_4.ImageColor3 = Color3.new(0, 0, 0)
+Pattern_4.ImageTransparency = 0.8999999761581421
+Pattern_4.ScaleType = Enum.ScaleType.Tile
+Pattern_4.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern_4.TileSize = UDim2.new(0, 30, 0, 30)
+
+Button_5.Name = "Button"
+Button_5.Parent = PoliceDepartment
+Button_5.AnchorPoint = Vector2.new(0.5, 0.5)
+Button_5.BackgroundColor3 = Color3.new(1, 1, 1)
+Button_5.BackgroundTransparency = 1
+Button_5.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Button_5.Position = UDim2.new(0.5, 0, 0.5, 0)
+Button_5.Size = UDim2.new(1, 0, 1, 0)
+Button_5.ImageTransparency = 1
+
+UICorner_12.Parent = Button_5
+UICorner_12.CornerRadius = UDim.new(0, 6)
+
+PoliceHeadquarters.Name = "Police Headquarters"
+PoliceHeadquarters.Parent = SpecialGui
+PoliceHeadquarters.AnchorPoint = Vector2.new(0.5, 0.5)
+PoliceHeadquarters.BackgroundColor3 = Color3.new(0, 0.12549, 0.376471)
+PoliceHeadquarters.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+PoliceHeadquarters.BorderSizePixel = 0
+PoliceHeadquarters.ClipsDescendants = true
+PoliceHeadquarters.LayoutOrder = 8
+PoliceHeadquarters.Position = UDim2.new(0.397191286, 0, 0.249448135, 0)
+PoliceHeadquarters.Size = UDim2.new(0.145382851, 0, 0.205721065, 0)
+
+UICorner_13.Parent = PoliceHeadquarters
+UICorner_13.CornerRadius = UDim.new(0, 6)
+
+TextLabel_7.Parent = PoliceHeadquarters
+TextLabel_7.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_7.BackgroundColor3 = Color3.new(0, 0, 0)
+TextLabel_7.BackgroundTransparency = 1
+TextLabel_7.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.LayoutOrder = 1
+TextLabel_7.Position = UDim2.new(0.498708963, 0, 0.171821579, 0)
+TextLabel_7.Size = UDim2.new(0.845648646, 0, 0.150000006, 0)
+TextLabel_7.Font = Enum.Font.FredokaOne
+TextLabel_7.Text = "Police HQ"
+TextLabel_7.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 23
+TextLabel_7.TextStrokeTransparency = 0
+TextLabel_7.TextWrapped = true
+TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
+
+Thumbnail_5.Name = "Thumbnail"
+Thumbnail_5.Parent = PoliceHeadquarters
+Thumbnail_5.AnchorPoint = Vector2.new(0.5, 0.5)
+Thumbnail_5.BackgroundColor3 = Color3.new(1, 1, 1)
+Thumbnail_5.BackgroundTransparency = 1
+Thumbnail_5.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Thumbnail_5.Position = UDim2.new(0.64755547, 0, 0.969869971, 0)
+Thumbnail_5.Size = UDim2.new(1.41859281, 0, 1.45679331, 0)
+Thumbnail_5.Image = "http://www.roblox.com/asset/?id=9202126748"
+Thumbnail_5.ScaleType = Enum.ScaleType.Fit
+
+Pattern_5.Name = "Pattern"
+Pattern_5.Parent = PoliceHeadquarters
+Pattern_5.AnchorPoint = Vector2.new(0.5, 0.5)
+Pattern_5.BackgroundColor3 = Color3.new(0, 0, 0)
+Pattern_5.BackgroundTransparency = 1
+Pattern_5.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Pattern_5.Position = UDim2.new(0.5, 0, 0.5, 0)
+Pattern_5.Size = UDim2.new(1, 0, 1, 0)
+Pattern_5.ZIndex = 0
+Pattern_5.Image = "rbxassetid://300134974"
+Pattern_5.ImageColor3 = Color3.new(0, 0, 0)
+Pattern_5.ImageTransparency = 0.8999999761581421
+Pattern_5.ScaleType = Enum.ScaleType.Tile
+Pattern_5.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern_5.TileSize = UDim2.new(0, 30, 0, 30)
+
+Button_6.Name = "Button"
+Button_6.Parent = PoliceHeadquarters
+Button_6.AnchorPoint = Vector2.new(0.5, 0.5)
+Button_6.BackgroundColor3 = Color3.new(1, 1, 1)
+Button_6.BackgroundTransparency = 1
+Button_6.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Button_6.Position = UDim2.new(0.5, 0, 0.5, 0)
+Button_6.Size = UDim2.new(1, 0, 1, 0)
+Button_6.ImageTransparency = 1
+
+UICorner_14.Parent = Button_6
+UICorner_14.CornerRadius = UDim.new(0, 6)
+
+SpecialWeaponsTactics.Name = "Special Weapons & Tactics"
+SpecialWeaponsTactics.Parent = SpecialGui
+SpecialWeaponsTactics.AnchorPoint = Vector2.new(0.5, 0.5)
+SpecialWeaponsTactics.BackgroundColor3 = Color3.new(0.0666667, 0.0666667, 0.0666667)
+SpecialWeaponsTactics.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+SpecialWeaponsTactics.BorderSizePixel = 0
+SpecialWeaponsTactics.ClipsDescendants = true
+SpecialWeaponsTactics.LayoutOrder = 6
+SpecialWeaponsTactics.Position = UDim2.new(0.0816706344, 0, 0.688545048, 0)
+SpecialWeaponsTactics.Size = UDim2.new(0.145382866, 0, 0.205721065, 0)
+
+UICorner_15.Parent = SpecialWeaponsTactics
+UICorner_15.CornerRadius = UDim.new(0, 6)
+
+TextLabel_8.Parent = SpecialWeaponsTactics
+TextLabel_8.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_8.BackgroundColor3 = Color3.new(0, 0, 0)
+TextLabel_8.BackgroundTransparency = 1
+TextLabel_8.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.LayoutOrder = 1
+TextLabel_8.Position = UDim2.new(0.498708963, 0, 0.171821579, 0)
+TextLabel_8.Size = UDim2.new(0.845648646, 0, 0.150000006, 0)
+TextLabel_8.Font = Enum.Font.FredokaOne
+TextLabel_8.Text = "SWAT"
+TextLabel_8.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 23
+TextLabel_8.TextStrokeTransparency = 0
+TextLabel_8.TextWrapped = true
+TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
+
+Thumbnail_6.Name = "Thumbnail"
+Thumbnail_6.Parent = SpecialWeaponsTactics
+Thumbnail_6.AnchorPoint = Vector2.new(0.5, 0.5)
+Thumbnail_6.BackgroundColor3 = Color3.new(1, 1, 1)
+Thumbnail_6.BackgroundTransparency = 1
+Thumbnail_6.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Thumbnail_6.Position = UDim2.new(0.626462698, 0, 0.922535658, 0)
+Thumbnail_6.Size = UDim2.new(1.41859281, 0, 1.45679331, 0)
+Thumbnail_6.Image = "http://www.roblox.com/asset/?id=9202103586"
+Thumbnail_6.ScaleType = Enum.ScaleType.Fit
+
+Pattern_6.Name = "Pattern"
+Pattern_6.Parent = SpecialWeaponsTactics
+Pattern_6.AnchorPoint = Vector2.new(0.5, 0.5)
+Pattern_6.BackgroundColor3 = Color3.new(0, 0, 0)
+Pattern_6.BackgroundTransparency = 1
+Pattern_6.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Pattern_6.Position = UDim2.new(0.5, 0, 0.5, 0)
+Pattern_6.Size = UDim2.new(1, 0, 1, 0)
+Pattern_6.ZIndex = 0
+Pattern_6.Image = "rbxassetid://300134974"
+Pattern_6.ImageColor3 = Color3.new(0, 0, 0)
+Pattern_6.ImageTransparency = 0.8999999761581421
+Pattern_6.ScaleType = Enum.ScaleType.Tile
+Pattern_6.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern_6.TileSize = UDim2.new(0, 30, 0, 30)
+
+Button_7.Name = "Button"
+Button_7.Parent = SpecialWeaponsTactics
+Button_7.AnchorPoint = Vector2.new(0.5, 0.5)
+Button_7.BackgroundColor3 = Color3.new(1, 1, 1)
+Button_7.BackgroundTransparency = 1
+Button_7.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Button_7.Position = UDim2.new(0.5, 0, 0.5, 0)
+Button_7.Size = UDim2.new(1, 0, 1, 0)
+Button_7.ImageTransparency = 1
+
+UICorner_16.Parent = Button_7
+UICorner_16.CornerRadius = UDim.new(0, 6)
+
+TrafficUnit.Name = "Traffic Unit"
+TrafficUnit.Parent = SpecialGui
+TrafficUnit.AnchorPoint = Vector2.new(0.5, 0.5)
+TrafficUnit.BackgroundColor3 = Color3.new(1, 0.690196, 0)
+TrafficUnit.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TrafficUnit.BorderSizePixel = 0
+TrafficUnit.ClipsDescendants = true
+TrafficUnit.LayoutOrder = 4
+TrafficUnit.Position = UDim2.new(0.235962912, 0, 0.478660613, 0)
+TrafficUnit.Size = UDim2.new(0.145382851, 0, 0.205720991, 0)
+
+UICorner_17.Parent = TrafficUnit
+UICorner_17.CornerRadius = UDim.new(0, 6)
+
+TextLabel_9.Parent = TrafficUnit
+TextLabel_9.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_9.BackgroundColor3 = Color3.new(0, 0, 0)
+TextLabel_9.BackgroundTransparency = 1
+TextLabel_9.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.LayoutOrder = 1
+TextLabel_9.Position = UDim2.new(0.498708963, 0, 0.171821579, 0)
+TextLabel_9.Size = UDim2.new(0.845648646, 0, 0.150000006, 0)
+TextLabel_9.Font = Enum.Font.FredokaOne
+TextLabel_9.Text = "Traffic Unit"
+TextLabel_9.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 23
+TextLabel_9.TextStrokeTransparency = 0
+TextLabel_9.TextWrapped = true
+TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
+
+Thumbnail_7.Name = "Thumbnail"
+Thumbnail_7.Parent = TrafficUnit
+Thumbnail_7.AnchorPoint = Vector2.new(0.5, 0.5)
+Thumbnail_7.BackgroundColor3 = Color3.new(1, 1, 1)
+Thumbnail_7.BackgroundTransparency = 1
+Thumbnail_7.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Thumbnail_7.Position = UDim2.new(0.648000002, 0, 0.970000029, 0)
+Thumbnail_7.Size = UDim2.new(1.41859281, 0, 1.45679331, 0)
+Thumbnail_7.Image = "http://www.roblox.com/asset/?id=9202024814"
+Thumbnail_7.ScaleType = Enum.ScaleType.Fit
+
+Pattern_7.Name = "Pattern"
+Pattern_7.Parent = TrafficUnit
+Pattern_7.AnchorPoint = Vector2.new(0.5, 0.5)
+Pattern_7.BackgroundColor3 = Color3.new(0, 0, 0)
+Pattern_7.BackgroundTransparency = 1
+Pattern_7.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Pattern_7.Position = UDim2.new(0.5, 0, 0.5, 0)
+Pattern_7.Size = UDim2.new(1, 0, 1, 0)
+Pattern_7.ZIndex = 0
+Pattern_7.Image = "rbxassetid://300134974"
+Pattern_7.ImageColor3 = Color3.new(0, 0, 0)
+Pattern_7.ImageTransparency = 0.8999999761581421
+Pattern_7.ScaleType = Enum.ScaleType.Tile
+Pattern_7.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern_7.TileSize = UDim2.new(0, 30, 0, 30)
+
+Button_8.Name = "Button"
+Button_8.Parent = TrafficUnit
+Button_8.AnchorPoint = Vector2.new(0.5, 0.5)
+Button_8.BackgroundColor3 = Color3.new(1, 1, 1)
+Button_8.BackgroundTransparency = 1
+Button_8.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Button_8.Position = UDim2.new(0.5, 0, 0.5, 0)
+Button_8.Size = UDim2.new(1, 0, 1, 0)
+Button_8.ImageTransparency = 1
+
+UICorner_18.Parent = Button_8
+UICorner_18.CornerRadius = UDim.new(0, 6)
+
+TrainingDiscipline.Name = "Training & Discipline"
+TrainingDiscipline.Parent = SpecialGui
+TrainingDiscipline.AnchorPoint = Vector2.new(0.5, 0.5)
+TrainingDiscipline.BackgroundColor3 = Color3.new(0.623529, 0.952941, 0.913726)
+TrainingDiscipline.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TrainingDiscipline.BorderSizePixel = 0
+TrainingDiscipline.ClipsDescendants = true
+TrainingDiscipline.LayoutOrder = 7
+TrainingDiscipline.Position = UDim2.new(0.0816706344, 0, 0.475010455, 0)
+TrainingDiscipline.Size = UDim2.new(0.145382866, 0, 0.205721065, 0)
+
+UICorner_19.Parent = TrainingDiscipline
+UICorner_19.CornerRadius = UDim.new(0, 6)
+
+TextLabel_10.Parent = TrainingDiscipline
+TextLabel_10.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_10.BackgroundColor3 = Color3.new(0, 0, 0)
+TextLabel_10.BackgroundTransparency = 1
+TextLabel_10.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.LayoutOrder = 1
+TextLabel_10.Position = UDim2.new(0.498708963, 0, 0.171821579, 0)
+TextLabel_10.Size = UDim2.new(0.845648646, 0, 0.150000006, 0)
+TextLabel_10.Font = Enum.Font.FredokaOne
+TextLabel_10.Text = "TDU"
+TextLabel_10.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 23
+TextLabel_10.TextStrokeTransparency = 0
+TextLabel_10.TextWrapped = true
+TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
+
+Thumbnail_8.Name = "Thumbnail"
+Thumbnail_8.Parent = TrainingDiscipline
+Thumbnail_8.AnchorPoint = Vector2.new(0.5, 0.5)
+Thumbnail_8.BackgroundColor3 = Color3.new(1, 1, 1)
+Thumbnail_8.BackgroundTransparency = 1
+Thumbnail_8.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Thumbnail_8.Position = UDim2.new(0.64755547, 0, 1.01733434, 0)
+Thumbnail_8.Size = UDim2.new(1.41859281, 0, 1.45679331, 0)
+Thumbnail_8.Image = "http://www.roblox.com/asset/?id=9202002773"
+Thumbnail_8.ScaleType = Enum.ScaleType.Fit
+
+Pattern_8.Name = "Pattern"
+Pattern_8.Parent = TrainingDiscipline
+Pattern_8.AnchorPoint = Vector2.new(0.5, 0.5)
+Pattern_8.BackgroundColor3 = Color3.new(0, 0, 0)
+Pattern_8.BackgroundTransparency = 1
+Pattern_8.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Pattern_8.Position = UDim2.new(0.5, 0, 0.5, 0)
+Pattern_8.Size = UDim2.new(1, 0, 1, 0)
+Pattern_8.ZIndex = 0
+Pattern_8.Image = "rbxassetid://300134974"
+Pattern_8.ImageColor3 = Color3.new(0, 0, 0)
+Pattern_8.ImageTransparency = 0.8999999761581421
+Pattern_8.ScaleType = Enum.ScaleType.Tile
+Pattern_8.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern_8.TileSize = UDim2.new(0, 30, 0, 30)
+
+Button_9.Name = "Button"
+Button_9.Parent = TrainingDiscipline
+Button_9.AnchorPoint = Vector2.new(0.5, 0.5)
+Button_9.BackgroundColor3 = Color3.new(1, 1, 1)
+Button_9.BackgroundTransparency = 1
+Button_9.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Button_9.Position = UDim2.new(0.5, 0, 0.5, 0)
+Button_9.Size = UDim2.new(1, 0, 1, 0)
+Button_9.ImageTransparency = 1
+
+UICorner_20.Parent = Button_9
+UICorner_20.CornerRadius = UDim.new(0, 6)
+
+AlwaysDay.Name = "AlwaysDay"
+AlwaysDay.Parent = SpecialGui
+AlwaysDay.AnchorPoint = Vector2.new(0.5, 0.5)
+AlwaysDay.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+AlwaysDay.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+AlwaysDay.BorderSizePixel = 0
+AlwaysDay.LayoutOrder = 10
+AlwaysDay.Position = UDim2.new(0.731838405, 0, 0.228033215, 0)
+AlwaysDay.Size = UDim2.new(0.477112591, 0, 0.123054609, 0)
+
+UICorner_21.Parent = AlwaysDay
+UICorner_21.CornerRadius = UDim.new(0, 6)
+
+TextLabel_11.Parent = AlwaysDay
+TextLabel_11.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_11.BackgroundColor3 = Color3.new(0, 0, 0)
+TextLabel_11.BackgroundTransparency = 1
+TextLabel_11.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_11.BorderSizePixel = 0
+TextLabel_11.LayoutOrder = 1
+TextLabel_11.Position = UDim2.new(0.337474376, 0, 0.291272908, 0)
+TextLabel_11.Size = UDim2.new(0.594970107, 0, 0.251770288, 0)
+TextLabel_11.Font = Enum.Font.FredokaOne
+TextLabel_11.Text = "Always Day"
+TextLabel_11.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 23
+TextLabel_11.TextStrokeTransparency = 0
+TextLabel_11.TextWrapped = true
+TextLabel_11.TextXAlignment = Enum.TextXAlignment.Left
+
+Switch.Name = "Switch"
+Switch.Parent = AlwaysDay
+Switch.AnchorPoint = Vector2.new(0.5, 0.5)
+Switch.BackgroundColor3 = Color3.new(1, 1, 1)
+Switch.BorderSizePixel = 0
+Switch.Position = UDim2.new(0.823469698, 0, 0.49999994, 0)
+Switch.Size = UDim2.new(0.208160535, 0, 0.386999995, 0)
+
+UIPadding.Parent = Switch
+UIPadding.PaddingBottom = UDim.new(0.0500000007, 0)
+UIPadding.PaddingLeft = UDim.new(0.0199999996, 0)
+UIPadding.PaddingRight = UDim.new(0.0199999996, 0)
+UIPadding.PaddingTop = UDim.new(0.0500000007, 0)
+
+UICorner_22.Parent = Switch
+UICorner_22.CornerRadius = UDim.new(0, 6)
+
+Status.Name = "Status"
+Status.Parent = Switch
+Status.AnchorPoint = Vector2.new(0, 0.5)
+Status.BackgroundColor3 = Color3.new(0.545098, 0.545098, 0.545098)
+Status.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Status.BorderSizePixel = 0
+Status.Position = UDim2.new(0, 0, 0.5, 0)
+Status.Size = UDim2.new(0.5, 0, 1, 0)
+
+UICorner_23.Parent = Status
+UICorner_23.CornerRadius = UDim.new(0, 6)
+
+Button_10.Name = "Button"
+Button_10.Parent = Switch
+Button_10.AnchorPoint = Vector2.new(0.5, 0.5)
+Button_10.BackgroundColor3 = Color3.new(1, 1, 1)
+Button_10.BackgroundTransparency = 1
+Button_10.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Button_10.Position = UDim2.new(0.5, 0, 0.5, 0)
+Button_10.Size = UDim2.new(1, 0, 1, 0)
+Button_10.ImageTransparency = 1
+
+UICorner_24.Parent = Button_10
+UICorner_24.CornerRadius = UDim.new(0, 6)
+
+TextLabel_12.Parent = AlwaysDay
+TextLabel_12.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_12.BackgroundColor3 = Color3.new(0, 0, 0)
+TextLabel_12.BackgroundTransparency = 1
+TextLabel_12.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_12.BorderSizePixel = 0
+TextLabel_12.LayoutOrder = 1
+TextLabel_12.Position = UDim2.new(0.337474823, 0, 0.639406085, 0)
+TextLabel_12.Size = UDim2.new(0.594970345, 0, 0.444495499, 0)
+TextLabel_12.Font = Enum.Font.FredokaOne
+TextLabel_12.Text = "Enable for always day."
+TextLabel_12.TextColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 23
+TextLabel_12.TextStrokeTransparency = 0
+TextLabel_12.TextWrapped = true
+TextLabel_12.TextXAlignment = Enum.TextXAlignment.Left
+
+Pattern_9.Name = "Pattern"
+Pattern_9.Parent = AlwaysDay
+Pattern_9.AnchorPoint = Vector2.new(0.5, 0.5)
+Pattern_9.BackgroundColor3 = Color3.new(0, 0, 0)
+Pattern_9.BackgroundTransparency = 1
+Pattern_9.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Pattern_9.Position = UDim2.new(0.5, 0, 0.5, 0)
+Pattern_9.Size = UDim2.new(1, 0, 1, 0)
+Pattern_9.ZIndex = 0
+Pattern_9.Image = "rbxassetid://300134974"
+Pattern_9.ImageColor3 = Color3.new(0, 0, 0)
+Pattern_9.ImageTransparency = 0.8999999761581421
+Pattern_9.ScaleType = Enum.ScaleType.Tile
+Pattern_9.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern_9.TileSize = UDim2.new(0, 30, 0, 30)
+
+ChooseRank.Name = "ChooseRank"
+ChooseRank.Parent = SpecialGui
+ChooseRank.AnchorPoint = Vector2.new(0.5, 0.5)
+ChooseRank.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+ChooseRank.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+ChooseRank.BorderSizePixel = 0
+ChooseRank.LayoutOrder = 10
+ChooseRank.Position = UDim2.new(0.730955899, 0, 0.848789871, 0)
+ChooseRank.Size = UDim2.new(0.463831156, 0, 0.202913299, 0)
+
+UICorner_25.Parent = ChooseRank
+UICorner_25.CornerRadius = UDim.new(0, 6)
+
+TextLabel_13.Parent = ChooseRank
+TextLabel_13.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_13.BackgroundColor3 = Color3.new(0, 0, 0)
+TextLabel_13.BackgroundTransparency = 1
+TextLabel_13.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_13.BorderSizePixel = 0
+TextLabel_13.LayoutOrder = 1
+TextLabel_13.Position = UDim2.new(0.211727396, 0, 0.251916736, 0)
+TextLabel_13.Size = UDim2.new(0.343476176, 0, 0.173058033, 0)
+TextLabel_13.Font = Enum.Font.FredokaOne
+TextLabel_13.Text = "Choose Rank"
+TextLabel_13.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_13.TextScaled = true
+TextLabel_13.TextSize = 23
+TextLabel_13.TextStrokeTransparency = 0
+TextLabel_13.TextWrapped = true
+TextLabel_13.TextXAlignment = Enum.TextXAlignment.Left
+
+Pattern_10.Name = "Pattern"
+Pattern_10.Parent = ChooseRank
+Pattern_10.AnchorPoint = Vector2.new(0.5, 0.5)
+Pattern_10.BackgroundColor3 = Color3.new(0, 0, 0)
+Pattern_10.BackgroundTransparency = 1
+Pattern_10.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Pattern_10.Position = UDim2.new(0.5, 0, 0.5, 0)
+Pattern_10.Size = UDim2.new(1, 0, 1, 0)
+Pattern_10.ZIndex = 0
+Pattern_10.Image = "rbxassetid://300134974"
+Pattern_10.ImageColor3 = Color3.new(0, 0, 0)
+Pattern_10.ImageTransparency = 0.8999999761581421
+Pattern_10.ScaleType = Enum.ScaleType.Tile
+Pattern_10.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern_10.TileSize = UDim2.new(0, 30, 0, 30)
+
+Button_11.Name = "Button"
+Button_11.Parent = ChooseRank
+Button_11.BackgroundColor3 = Color3.new(1, 1, 1)
+Button_11.BorderColor3 = Color3.new(0, 0, 0)
+Button_11.BorderSizePixel = 0
+Button_11.Position = UDim2.new(0.441195935, 0, 0.13805382, 0)
+Button_11.Size = UDim2.new(0, 48, 0, 19)
+Button_11.Font = Enum.Font.Unknown
+Button_11.Text = "LT"
+Button_11.TextColor3 = Color3.new(0, 0, 0)
+Button_11.TextSize = 14
+
+UICorner_26.Parent = Button_11
+UICorner_26.CornerRadius = UDim.new(0, 6)
+
+Button_12.Name = "Button"
+Button_12.Parent = ChooseRank
+Button_12.BackgroundColor3 = Color3.new(1, 1, 1)
+Button_12.BorderColor3 = Color3.new(0, 0, 0)
+Button_12.BorderSizePixel = 0
+Button_12.Position = UDim2.new(0.69050771, 0, 0.13805382, 0)
+Button_12.Size = UDim2.new(0, 48, 0, 19)
+Button_12.Font = Enum.Font.Unknown
+Button_12.Text = "CPT"
+Button_12.TextColor3 = Color3.new(0, 0, 0)
+Button_12.TextSize = 14
+
+UICorner_27.Parent = Button_12
+UICorner_27.CornerRadius = UDim.new(0, 6)
+
+Button_13.Name = "Button"
+Button_13.Parent = ChooseRank
+Button_13.BackgroundColor3 = Color3.new(1, 1, 1)
+Button_13.BorderColor3 = Color3.new(0, 0, 0)
+Button_13.BorderSizePixel = 0
+Button_13.Position = UDim2.new(0.509942055, 0, 0.407924205, 0)
+Button_13.Size = UDim2.new(0, 48, 0, 19)
+Button_13.Font = Enum.Font.Unknown
+Button_13.Text = "D/COM"
+Button_13.TextColor3 = Color3.new(0, 0, 0)
+Button_13.TextSize = 14
+
+UICorner_28.Parent = Button_13
+UICorner_28.CornerRadius = UDim.new(0, 6)
+
+Button_14.Name = "Button"
+Button_14.Parent = ChooseRank
+Button_14.BackgroundColor3 = Color3.new(1, 1, 1)
+Button_14.BorderColor3 = Color3.new(0, 0, 0)
+Button_14.BorderSizePixel = 0
+Button_14.Position = UDim2.new(0.0344008654, 0, 0.722773015, 0)
+Button_14.Size = UDim2.new(0, 48, 0, 19)
+Button_14.Font = Enum.Font.Unknown
+Button_14.Text = "SUPT"
+Button_14.TextColor3 = Color3.new(0, 0, 0)
+Button_14.TextSize = 14
+
+UICorner_29.Parent = Button_14
+UICorner_29.CornerRadius = UDim.new(0, 6)
+
+Button_15.Name = "Button"
+Button_15.Parent = ChooseRank
+Button_15.BackgroundColor3 = Color3.new(1, 1, 1)
+Button_15.BorderColor3 = Color3.new(0, 0, 0)
+Button_15.BorderSizePixel = 0
+Button_15.Position = UDim2.new(0.0379385054, 0, 0.407924205, 0)
+Button_15.Size = UDim2.new(0, 48, 0, 19)
+Button_15.Font = Enum.Font.Unknown
+Button_15.Text = "COL"
+Button_15.TextColor3 = Color3.new(0, 0, 0)
+Button_15.TextSize = 14
+
+UICorner_30.Parent = Button_15
+UICorner_30.CornerRadius = UDim.new(0, 6)
+
+Button_16.Name = "Button"
+Button_16.Parent = ChooseRank
+Button_16.BackgroundColor3 = Color3.new(1, 1, 1)
+Button_16.BorderColor3 = Color3.new(0, 0, 0)
+Button_16.BorderSizePixel = 0
+Button_16.Position = UDim2.new(0.27642408, 0, 0.407924205, 0)
+Button_16.Size = UDim2.new(0, 48, 0, 19)
+Button_16.Font = Enum.Font.Unknown
+Button_16.Text = "CDR"
+Button_16.TextColor3 = Color3.new(0, 0, 0)
+Button_16.TextSize = 14
+
+UICorner_31.Parent = Button_16
+UICorner_31.CornerRadius = UDim.new(0, 6)
+
+Button_17.Name = "Button"
+Button_17.Parent = ChooseRank
+Button_17.BackgroundColor3 = Color3.new(1, 1, 1)
+Button_17.BorderColor3 = Color3.new(0, 0, 0)
+Button_17.BorderSizePixel = 0
+Button_17.Position = UDim2.new(0.74409157, 0, 0.407924205, 0)
+Button_17.Size = UDim2.new(0, 48, 0, 19)
+Button_17.Font = Enum.Font.Unknown
+Button_17.Text = "COM"
+Button_17.TextColor3 = Color3.new(0, 0, 0)
+Button_17.TextSize = 14
+
+UICorner_32.Parent = Button_17
+UICorner_32.CornerRadius = UDim.new(0, 6)
+
+Button_18.Name = "Button"
+Button_18.Parent = ChooseRank
+Button_18.BackgroundColor3 = Color3.new(1, 1, 1)
+Button_18.BorderColor3 = Color3.new(0, 0, 0)
+Button_18.BorderSizePixel = 0
+Button_18.Position = UDim2.new(0.275792599, 0, 0.722773015, 0)
+Button_18.Size = UDim2.new(0, 48, 0, 19)
+Button_18.Font = Enum.Font.Unknown
+Button_18.Text = "INS"
+Button_18.TextColor3 = Color3.new(0, 0, 0)
+Button_18.TextSize = 14
+
+UICorner_33.Parent = Button_18
+UICorner_33.CornerRadius = UDim.new(0, 6)
+
+Button_19.Name = "Button"
+Button_19.Parent = ChooseRank
+Button_19.BackgroundColor3 = Color3.new(1, 1, 1)
+Button_19.BorderColor3 = Color3.new(0, 0, 0)
+Button_19.BorderSizePixel = 0
+Button_19.Position = UDim2.new(0.509942055, 0, 0.722773015, 0)
+Button_19.Size = UDim2.new(0, 48, 0, 19)
+Button_19.Font = Enum.Font.Unknown
+Button_19.Text = "AC"
+Button_19.TextColor3 = Color3.new(0, 0, 0)
+Button_19.TextSize = 14
+
+UICorner_34.Parent = Button_19
+UICorner_34.CornerRadius = UDim.new(0, 6)
+
+Button_20.Name = "Button"
+Button_20.Parent = ChooseRank
+Button_20.BackgroundColor3 = Color3.new(1, 1, 1)
+Button_20.BorderColor3 = Color3.new(0, 0, 0)
+Button_20.BorderSizePixel = 0
+Button_20.Position = UDim2.new(0.74409157, 0, 0.722773015, 0)
+Button_20.Size = UDim2.new(0, 48, 0, 19)
+Button_20.Font = Enum.Font.Unknown
+Button_20.Text = "CHIEF"
+Button_20.TextColor3 = Color3.new(0, 0, 0)
+Button_20.TextSize = 14
+
+UICorner_35.Parent = Button_20
+UICorner_35.CornerRadius = UDim.new(0, 6)
+
+DisableShields.Name = "DisableShields"
+DisableShields.Parent = SpecialGui
+DisableShields.AnchorPoint = Vector2.new(0.5, 0.5)
+DisableShields.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+DisableShields.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+DisableShields.BorderSizePixel = 0
+DisableShields.LayoutOrder = 10
+DisableShields.Position = UDim2.new(0.731838405, 0, 0.650770485, 0)
+DisableShields.Size = UDim2.new(0.477112591, 0, 0.123054683, 0)
+
+UICorner_36.Parent = DisableShields
+UICorner_36.CornerRadius = UDim.new(0, 6)
+
+TextLabel_14.Parent = DisableShields
+TextLabel_14.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_14.BackgroundColor3 = Color3.new(0, 0, 0)
+TextLabel_14.BackgroundTransparency = 1
+TextLabel_14.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_14.BorderSizePixel = 0
+TextLabel_14.LayoutOrder = 1
+TextLabel_14.Position = UDim2.new(0.337474376, 0, 0.291272908, 0)
+TextLabel_14.Size = UDim2.new(0.594970107, 0, 0.251770288, 0)
+TextLabel_14.Font = Enum.Font.FredokaOne
+TextLabel_14.Text = "Disable Shields"
+TextLabel_14.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_14.TextScaled = true
+TextLabel_14.TextSize = 23
+TextLabel_14.TextStrokeTransparency = 0
+TextLabel_14.TextWrapped = true
+TextLabel_14.TextXAlignment = Enum.TextXAlignment.Left
+
+Switch_2.Name = "Switch"
+Switch_2.Parent = DisableShields
+Switch_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Switch_2.BackgroundColor3 = Color3.new(1, 1, 1)
+Switch_2.BorderSizePixel = 0
+Switch_2.Position = UDim2.new(0.823469698, 0, 0.49999994, 0)
+Switch_2.Size = UDim2.new(0.208160535, 0, 0.386999995, 0)
+
+UIPadding_2.Parent = Switch_2
+UIPadding_2.PaddingBottom = UDim.new(0.0500000007, 0)
+UIPadding_2.PaddingLeft = UDim.new(0.0199999996, 0)
+UIPadding_2.PaddingRight = UDim.new(0.0199999996, 0)
+UIPadding_2.PaddingTop = UDim.new(0.0500000007, 0)
+
+UICorner_37.Parent = Switch_2
+UICorner_37.CornerRadius = UDim.new(0, 6)
+
+Status_2.Name = "Status"
+Status_2.Parent = Switch_2
+Status_2.AnchorPoint = Vector2.new(0, 0.5)
+Status_2.BackgroundColor3 = Color3.new(0.545098, 0.545098, 0.545098)
+Status_2.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Status_2.BorderSizePixel = 0
+Status_2.Position = UDim2.new(0, 0, 0.5, 0)
+Status_2.Size = UDim2.new(0.5, 0, 1, 0)
+
+UICorner_38.Parent = Status_2
+UICorner_38.CornerRadius = UDim.new(0, 6)
+
+Button_21.Name = "Button"
+Button_21.Parent = Switch_2
+Button_21.AnchorPoint = Vector2.new(0.5, 0.5)
+Button_21.BackgroundColor3 = Color3.new(1, 1, 1)
+Button_21.BackgroundTransparency = 1
+Button_21.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Button_21.Position = UDim2.new(0.5, 0, 0.5, 0)
+Button_21.Size = UDim2.new(1, 0, 1, 0)
+Button_21.ImageTransparency = 1
+
+UICorner_39.Parent = Button_21
+UICorner_39.CornerRadius = UDim.new(0, 6)
+
+TextLabel_15.Parent = DisableShields
+TextLabel_15.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_15.BackgroundColor3 = Color3.new(0, 0, 0)
+TextLabel_15.BackgroundTransparency = 1
+TextLabel_15.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_15.BorderSizePixel = 0
+TextLabel_15.LayoutOrder = 1
+TextLabel_15.Position = UDim2.new(0.337474823, 0, 0.639406085, 0)
+TextLabel_15.Size = UDim2.new(0.594970345, 0, 0.444495499, 0)
+TextLabel_15.Font = Enum.Font.FredokaOne
+TextLabel_15.Text = "Enable for destroy all shields"
+TextLabel_15.TextColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+TextLabel_15.TextScaled = true
+TextLabel_15.TextSize = 23
+TextLabel_15.TextStrokeTransparency = 0
+TextLabel_15.TextWrapped = true
+TextLabel_15.TextXAlignment = Enum.TextXAlignment.Left
+
+Pattern_11.Name = "Pattern"
+Pattern_11.Parent = DisableShields
+Pattern_11.AnchorPoint = Vector2.new(0.5, 0.5)
+Pattern_11.BackgroundColor3 = Color3.new(0, 0, 0)
+Pattern_11.BackgroundTransparency = 1
+Pattern_11.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Pattern_11.Position = UDim2.new(0.5, 0, 0.5, 0)
+Pattern_11.Size = UDim2.new(1, 0, 1, 0)
+Pattern_11.ZIndex = 0
+Pattern_11.Image = "rbxassetid://300134974"
+Pattern_11.ImageColor3 = Color3.new(0, 0, 0)
+Pattern_11.ImageTransparency = 0.8999999761581421
+Pattern_11.ScaleType = Enum.ScaleType.Tile
+Pattern_11.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern_11.TileSize = UDim2.new(0, 30, 0, 30)
+
+TagAuth.Name = "TagAuth"
+TagAuth.Parent = SpecialGui
+TagAuth.AnchorPoint = Vector2.new(0.5, 0.5)
+TagAuth.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+TagAuth.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TagAuth.BorderSizePixel = 0
+TagAuth.LayoutOrder = 10
+TagAuth.Position = UDim2.new(0.731838405, 0, 0.501265824, 0)
+TagAuth.Size = UDim2.new(0.477112591, 0, 0.123054683, 0)
+
+UICorner_40.Parent = TagAuth
+UICorner_40.CornerRadius = UDim.new(0, 6)
+
+TextLabel_16.Parent = TagAuth
+TextLabel_16.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_16.BackgroundColor3 = Color3.new(0, 0, 0)
+TextLabel_16.BackgroundTransparency = 1
+TextLabel_16.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_16.BorderSizePixel = 0
+TextLabel_16.LayoutOrder = 1
+TextLabel_16.Position = UDim2.new(0.337474376, 0, 0.291272908, 0)
+TextLabel_16.Size = UDim2.new(0.594970107, 0, 0.251770288, 0)
+TextLabel_16.Font = Enum.Font.FredokaOne
+TextLabel_16.Text = "Authorized Tag VISUAL"
+TextLabel_16.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_16.TextScaled = true
+TextLabel_16.TextSize = 23
+TextLabel_16.TextStrokeTransparency = 0
+TextLabel_16.TextWrapped = true
+TextLabel_16.TextXAlignment = Enum.TextXAlignment.Left
+
+Switch_3.Name = "Switch"
+Switch_3.Parent = TagAuth
+Switch_3.AnchorPoint = Vector2.new(0.5, 0.5)
+Switch_3.BackgroundColor3 = Color3.new(1, 1, 1)
+Switch_3.BorderSizePixel = 0
+Switch_3.Position = UDim2.new(0.823469698, 0, 0.49999994, 0)
+Switch_3.Size = UDim2.new(0.208160535, 0, 0.386999995, 0)
+
+UIPadding_3.Parent = Switch_3
+UIPadding_3.PaddingBottom = UDim.new(0.0500000007, 0)
+UIPadding_3.PaddingLeft = UDim.new(0.0199999996, 0)
+UIPadding_3.PaddingRight = UDim.new(0.0199999996, 0)
+UIPadding_3.PaddingTop = UDim.new(0.0500000007, 0)
+
+UICorner_41.Parent = Switch_3
+UICorner_41.CornerRadius = UDim.new(0, 6)
+
+Status_3.Name = "Status"
+Status_3.Parent = Switch_3
+Status_3.AnchorPoint = Vector2.new(0, 0.5)
+Status_3.BackgroundColor3 = Color3.new(0.545098, 0.545098, 0.545098)
+Status_3.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Status_3.BorderSizePixel = 0
+Status_3.Position = UDim2.new(0, 0, 0.5, 0)
+Status_3.Size = UDim2.new(0.5, 0, 1, 0)
+
+UICorner_42.Parent = Status_3
+UICorner_42.CornerRadius = UDim.new(0, 6)
+
+Button_22.Name = "Button"
+Button_22.Parent = Switch_3
+Button_22.AnchorPoint = Vector2.new(0.5, 0.5)
+Button_22.BackgroundColor3 = Color3.new(1, 1, 1)
+Button_22.BackgroundTransparency = 1
+Button_22.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Button_22.Position = UDim2.new(0.5, 0, 0.5, 0)
+Button_22.Size = UDim2.new(1, 0, 1, 0)
+Button_22.ImageTransparency = 1
+
+UICorner_43.Parent = Button_22
+UICorner_43.CornerRadius = UDim.new(0, 6)
+
+TextLabel_17.Parent = TagAuth
+TextLabel_17.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_17.BackgroundColor3 = Color3.new(0, 0, 0)
+TextLabel_17.BackgroundTransparency = 1
+TextLabel_17.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_17.BorderSizePixel = 0
+TextLabel_17.LayoutOrder = 1
+TextLabel_17.Position = UDim2.new(0.337474823, 0, 0.639406085, 0)
+TextLabel_17.Size = UDim2.new(0.594970345, 0, 0.444495499, 0)
+TextLabel_17.Font = Enum.Font.FredokaOne
+TextLabel_17.Text = "Enable for visual tag."
+TextLabel_17.TextColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+TextLabel_17.TextScaled = true
+TextLabel_17.TextSize = 23
+TextLabel_17.TextStrokeTransparency = 0
+TextLabel_17.TextWrapped = true
+TextLabel_17.TextXAlignment = Enum.TextXAlignment.Left
+
+Pattern_12.Name = "Pattern"
+Pattern_12.Parent = TagAuth
+Pattern_12.AnchorPoint = Vector2.new(0.5, 0.5)
+Pattern_12.BackgroundColor3 = Color3.new(0, 0, 0)
+Pattern_12.BackgroundTransparency = 1
+Pattern_12.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Pattern_12.Position = UDim2.new(0.5, 0, 0.5, 0)
+Pattern_12.Size = UDim2.new(1, 0, 1, 0)
+Pattern_12.ZIndex = 0
+Pattern_12.Image = "rbxassetid://300134974"
+Pattern_12.ImageColor3 = Color3.new(0, 0, 0)
+Pattern_12.ImageTransparency = 0.8999999761581421
+Pattern_12.ScaleType = Enum.ScaleType.Tile
+Pattern_12.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern_12.TileSize = UDim2.new(0, 30, 0, 30)
+
+TagKos.Name = "TagKos"
+TagKos.Parent = SpecialGui
+TagKos.AnchorPoint = Vector2.new(0.5, 0.5)
+TagKos.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+TagKos.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TagKos.BorderSizePixel = 0
+TagKos.LayoutOrder = 10
+TagKos.Position = UDim2.new(0.731838405, 0, 0.362071961, 0)
+TagKos.Size = UDim2.new(0.477112591, 0, 0.123054639, 0)
+
+UICorner_44.Parent = TagKos
+UICorner_44.CornerRadius = UDim.new(0, 6)
+
+TextLabel_18.Parent = TagKos
+TextLabel_18.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_18.BackgroundColor3 = Color3.new(0, 0, 0)
+TextLabel_18.BackgroundTransparency = 1
+TextLabel_18.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_18.BorderSizePixel = 0
+TextLabel_18.LayoutOrder = 1
+TextLabel_18.Position = UDim2.new(0.337474376, 0, 0.291272908, 0)
+TextLabel_18.Size = UDim2.new(0.594970107, 0, 0.251770288, 0)
+TextLabel_18.Font = Enum.Font.FredokaOne
+TextLabel_18.Text = "Kosed Tag VISUAL"
+TextLabel_18.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_18.TextScaled = true
+TextLabel_18.TextSize = 23
+TextLabel_18.TextStrokeTransparency = 0
+TextLabel_18.TextWrapped = true
+TextLabel_18.TextXAlignment = Enum.TextXAlignment.Left
+
+Switch_4.Name = "Switch"
+Switch_4.Parent = TagKos
+Switch_4.AnchorPoint = Vector2.new(0.5, 0.5)
+Switch_4.BackgroundColor3 = Color3.new(1, 1, 1)
+Switch_4.BorderSizePixel = 0
+Switch_4.Position = UDim2.new(0.823469698, 0, 0.49999994, 0)
+Switch_4.Size = UDim2.new(0.208160535, 0, 0.386999995, 0)
+
+UIPadding_4.Parent = Switch_4
+UIPadding_4.PaddingBottom = UDim.new(0.0500000007, 0)
+UIPadding_4.PaddingLeft = UDim.new(0.0199999996, 0)
+UIPadding_4.PaddingRight = UDim.new(0.0199999996, 0)
+UIPadding_4.PaddingTop = UDim.new(0.0500000007, 0)
+
+UICorner_45.Parent = Switch_4
+UICorner_45.CornerRadius = UDim.new(0, 6)
+
+Status_4.Name = "Status"
+Status_4.Parent = Switch_4
+Status_4.AnchorPoint = Vector2.new(0, 0.5)
+Status_4.BackgroundColor3 = Color3.new(0.545098, 0.545098, 0.545098)
+Status_4.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Status_4.BorderSizePixel = 0
+Status_4.Position = UDim2.new(0, 0, 0.5, 0)
+Status_4.Size = UDim2.new(0.5, 0, 1, 0)
+
+UICorner_46.Parent = Status_4
+UICorner_46.CornerRadius = UDim.new(0, 6)
+
+Button_23.Name = "Button"
+Button_23.Parent = Switch_4
+Button_23.AnchorPoint = Vector2.new(0.5, 0.5)
+Button_23.BackgroundColor3 = Color3.new(1, 1, 1)
+Button_23.BackgroundTransparency = 1
+Button_23.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Button_23.Position = UDim2.new(0.5, 0, 0.5, 0)
+Button_23.Size = UDim2.new(1, 0, 1, 0)
+Button_23.ImageTransparency = 1
+
+UICorner_47.Parent = Button_23
+UICorner_47.CornerRadius = UDim.new(0, 6)
+
+TextLabel_19.Parent = TagKos
+TextLabel_19.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_19.BackgroundColor3 = Color3.new(0, 0, 0)
+TextLabel_19.BackgroundTransparency = 1
+TextLabel_19.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+TextLabel_19.BorderSizePixel = 0
+TextLabel_19.LayoutOrder = 1
+TextLabel_19.Position = UDim2.new(0.337474823, 0, 0.639406085, 0)
+TextLabel_19.Size = UDim2.new(0.594970345, 0, 0.444495499, 0)
+TextLabel_19.Font = Enum.Font.FredokaOne
+TextLabel_19.Text = "Enable for visual tag."
+TextLabel_19.TextColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+TextLabel_19.TextScaled = true
+TextLabel_19.TextSize = 23
+TextLabel_19.TextStrokeTransparency = 0
+TextLabel_19.TextWrapped = true
+TextLabel_19.TextXAlignment = Enum.TextXAlignment.Left
+
+Pattern_13.Name = "Pattern"
+Pattern_13.Parent = TagKos
+Pattern_13.AnchorPoint = Vector2.new(0.5, 0.5)
+Pattern_13.BackgroundColor3 = Color3.new(0, 0, 0)
+Pattern_13.BackgroundTransparency = 1
+Pattern_13.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Pattern_13.Position = UDim2.new(0.5, 0, 0.5, 0)
+Pattern_13.Size = UDim2.new(1, 0, 1, 0)
+Pattern_13.ZIndex = 0
+Pattern_13.Image = "rbxassetid://300134974"
+Pattern_13.ImageColor3 = Color3.new(0, 0, 0)
+Pattern_13.ImageTransparency = 0.8999999761581421
+Pattern_13.ScaleType = Enum.ScaleType.Tile
+Pattern_13.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern_13.TileSize = UDim2.new(0, 30, 0, 30)
+
+UIAspectRatioConstraint_2.Parent = Container
+UIAspectRatioConstraint_2.AspectRatio = 1.7777777910232544
+
+-- Scripts
+
+local function SWYBN_fake_script() -- Button.LocalScript 
+	local script = Instance.new('LocalScript', Button)
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+		local parent = script.Parent.Parent.Parent.Parent.Menus
+		parent.Visible = not parent.Visible
+	end)
+	
+end
+coroutine.wrap(SWYBN_fake_script)()
+local function XCEO_fake_script() -- Button_2.LocalScript 
+	local script = Instance.new('LocalScript', Button_2)
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	
+	button.MouseButton1Click:Connect(function()
+		local teams = game:GetService("Teams")
+		local teamName = "Academy Security Unit"
+	
+		local selectedTeam = teams:FindFirstChild(teamName)
+		if selectedTeam then
+			player.Team = selectedTeam
+		else
+			warn("Команда с именем", teamName, "не найдена!")
+		end
+	end)
+	
+end
+coroutine.wrap(XCEO_fake_script)()
+local function PPIXTH_fake_script() -- Button_3.LocalScript 
+	local script = Instance.new('LocalScript', Button_3)
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	
+	button.MouseButton1Click:Connect(function()
+		local teams = game:GetService("Teams")
+		local teamName = "Basic Training"
+	
+		local selectedTeam = teams:FindFirstChild(teamName)
+		if selectedTeam then
+			player.Team = selectedTeam
+		else
+			warn("Команда с именем", teamName, "не найдена!")
+		end
+	end)
+	
+end
+coroutine.wrap(PPIXTH_fake_script)()
+local function QPXOVB_fake_script() -- Button_4.LocalScript 
+	local script = Instance.new('LocalScript', Button_4)
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	
+	button.MouseButton1Click:Connect(function()
+		local teams = game:GetService("Teams")
+		local teamName = "Civilian"
+	
+		local selectedTeam = teams:FindFirstChild(teamName)
+		if selectedTeam then
+			player.Team = selectedTeam
+		else
+			warn("Команда с именем", teamName, "не найдена!")
+		end
+	end)
+	
+end
+coroutine.wrap(QPXOVB_fake_script)()
+local function IDQHXF_fake_script() -- Button_5.LocalScript 
+	local script = Instance.new('LocalScript', Button_5)
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	
+	button.MouseButton1Click:Connect(function()
+		local teams = game:GetService("Teams")
+		local teamName = "Police Department"
+	
+		local selectedTeam = teams:FindFirstChild(teamName)
+		if selectedTeam then
+			player.Team = selectedTeam
+		else
+			warn("Команда с именем", teamName, "не найдена!")
+		end
+	end)
+	
+end
+coroutine.wrap(IDQHXF_fake_script)()
+local function TLRC_fake_script() -- Button_6.LocalScript 
+	local script = Instance.new('LocalScript', Button_6)
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	
+	button.MouseButton1Click:Connect(function()
+		local teams = game:GetService("Teams")
+		local teamName = "Police Headquarters"
+	
+		local selectedTeam = teams:FindFirstChild(teamName)
+		if selectedTeam then
+			player.Team = selectedTeam
+		else
+			warn("Команда с именем", teamName, "не найдена!")
+		end
+	end)
+	
+end
+coroutine.wrap(TLRC_fake_script)()
+local function JXSRX_fake_script() -- Button_7.LocalScript 
+	local script = Instance.new('LocalScript', Button_7)
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	
+	button.MouseButton1Click:Connect(function()
+		local teams = game:GetService("Teams")
+		local teamName = "Special Weapons & Tactics"
+	
+		local selectedTeam = teams:FindFirstChild(teamName)
+		if selectedTeam then
+			player.Team = selectedTeam
+		else
+			warn("Команда с именем", teamName, "не найдена!")
+		end
+	end)
+	
+end
+coroutine.wrap(JXSRX_fake_script)()
+local function BTEYQTR_fake_script() -- Button_8.LocalScript 
+	local script = Instance.new('LocalScript', Button_8)
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	
+	button.MouseButton1Click:Connect(function()
+		local teams = game:GetService("Teams")
+		local teamName = "Traffic Unit"
+	
+		local selectedTeam = teams:FindFirstChild(teamName)
+		if selectedTeam then
+			player.Team = selectedTeam
+		else
+			warn("Команда с именем", teamName, "не найдена!")
+		end
+	end)
+	
+end
+coroutine.wrap(BTEYQTR_fake_script)()
+local function APEBK_fake_script() -- Button_9.LocalScript 
+	local script = Instance.new('LocalScript', Button_9)
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	
+	button.MouseButton1Click:Connect(function()
+		local teams = game:GetService("Teams")
+		local teamName = "Training & Discipline"
+	
+		local selectedTeam = teams:FindFirstChild(teamName)
+		if selectedTeam then
+			player.Team = selectedTeam
+		else
+			warn("Команда с именем", teamName, "не найдена!")
+		end
+	end)
+	
+end
+coroutine.wrap(APEBK_fake_script)()
+local function SXMUCWS_fake_script() -- Button_10.LocalScript 
+	local script = Instance.new('LocalScript', Button_10)
+
+	local button = script.Parent
+	local status = script.Parent.Parent.Status
+	local lighting = game:GetService("Lighting")
+	local isActive = false
+	local originalPosition = UDim2.new(0, 0, 0.5, 0)
+	local toggledPosition = UDim2.new(0.5, 0, 0.5, 0)
+	local clockTimeOverride = 14.5
+	local originalClockTime = lighting.ClockTime
+	local function toggleFunctionality()
+		if not isActive then
+			if status.Position == originalPosition then
+				status.Position = toggledPosition
+				lighting.ClockTime = clockTimeOverride
+			end
+			isActive = true
+			lighting:GetPropertyChangedSignal("ClockTime"):Connect(function()
+				if isActive and lighting.ClockTime ~= clockTimeOverride then
+					lighting.ClockTime = clockTimeOverride
+				end
+			end)
+		else
+			status.Position = originalPosition
+			lighting.ClockTime = originalClockTime
+			isActive = false
+		end
+	end
+	button.MouseButton1Click:Connect(toggleFunctionality)
+	
+end
+coroutine.wrap(SXMUCWS_fake_script)()
+local function SNKAHK_fake_script() -- Button_11.LocalScript 
+	local script = Instance.new('LocalScript', Button_11)
+
+	local button = script.Parent
+	local workspace = game:GetService("Workspace")
+	button.MouseButton1Click:Connect(function()
+		for _, player in pairs(game:GetService("Players"):GetPlayers()) do
+			local playerId = tostring(player.UserId)
+			local display = workspace:FindFirstChild("Organizer")
+				and workspace.Organizer:FindFirstChild("PlayerDisplays")
+				and workspace.Organizer.PlayerDisplays:FindFirstChild(playerId)
+			if display then
+				local nameFrame = display:FindFirstChild("Main")
+					and display.Main:FindFirstChild("NameFrame")
+				if nameFrame then
+					local textLabel = nameFrame:FindFirstChild("TextLabel")
+					local shadowLabel = nameFrame:FindFirstChild("ShadowLabel")
+					if textLabel and shadowLabel then
+						textLabel.Text = textLabel.Text:gsub("%b[]", "[LT]", 1)
+						shadowLabel.Text = shadowLabel.Text:gsub("%b[]", "[LT]", 1)
+						textLabel.Text = textLabel.Text:gsub("%b[]", "[LR]", 1)
+						shadowLabel.Text = shadowLabel.Text:gsub("%b[]", "[LR]", 1)
+					end
+				end
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(SNKAHK_fake_script)()
+local function EUSURQ_fake_script() -- Button_12.LocalScript 
+	local script = Instance.new('LocalScript', Button_12)
+
+	local button = script.Parent
+	local workspace = game:GetService("Workspace")
+	button.MouseButton1Click:Connect(function()
+		for _, player in pairs(game:GetService("Players"):GetPlayers()) do
+			local playerId = tostring(player.UserId)
+			local display = workspace:FindFirstChild("Organizer")
+				and workspace.Organizer:FindFirstChild("PlayerDisplays")
+				and workspace.Organizer.PlayerDisplays:FindFirstChild(playerId)
+			if display then
+				local nameFrame = display:FindFirstChild("Main")
+					and display.Main:FindFirstChild("NameFrame")
+				if nameFrame then
+					local textLabel = nameFrame:FindFirstChild("TextLabel")
+					local shadowLabel = nameFrame:FindFirstChild("ShadowLabel")
+					if textLabel and shadowLabel then
+						textLabel.Text = textLabel.Text:gsub("%b[]", "[CPT]", 1)
+						shadowLabel.Text = shadowLabel.Text:gsub("%b[]", "[CPT]", 1)
+						textLabel.Text = textLabel.Text:gsub("%b[]", "[MR]", 1)
+						shadowLabel.Text = shadowLabel.Text:gsub("%b[]", "[MR]", 1)
+					end
+				end
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(EUSURQ_fake_script)()
+local function GIZFC_fake_script() -- Button_13.LocalScript 
+	local script = Instance.new('LocalScript', Button_13)
+
+	local button = script.Parent
+	local workspace = game:GetService("Workspace")
+	button.MouseButton1Click:Connect(function()
+		for _, player in pairs(game:GetService("Players"):GetPlayers()) do
+			local playerId = tostring(player.UserId)
+			local display = workspace:FindFirstChild("Organizer")
+				and workspace.Organizer:FindFirstChild("PlayerDisplays")
+				and workspace.Organizer.PlayerDisplays:FindFirstChild(playerId)
+			if display then
+				local nameFrame = display:FindFirstChild("Main")
+					and display.Main:FindFirstChild("NameFrame")
+				if nameFrame then
+					local textLabel = nameFrame:FindFirstChild("TextLabel")
+					local shadowLabel = nameFrame:FindFirstChild("ShadowLabel")
+					if textLabel and shadowLabel then
+						textLabel.Text = textLabel.Text:gsub("%b[]", "[D/COM]", 1)
+						shadowLabel.Text = shadowLabel.Text:gsub("%b[]", "[D/COM]", 1)
+						textLabel.Text = textLabel.Text:gsub("%b[]", "[HR]", 1)
+						shadowLabel.Text = shadowLabel.Text:gsub("%b[]", "[HR]", 1)
+					end
+				end
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(GIZFC_fake_script)()
+local function DCISSG_fake_script() -- Button_14.LocalScript 
+	local script = Instance.new('LocalScript', Button_14)
+
+	local button = script.Parent
+	local workspace = game:GetService("Workspace")
+	button.MouseButton1Click:Connect(function()
+		for _, player in pairs(game:GetService("Players"):GetPlayers()) do
+			local playerId = tostring(player.UserId)
+			local display = workspace:FindFirstChild("Organizer")
+				and workspace.Organizer:FindFirstChild("PlayerDisplays")
+				and workspace.Organizer.PlayerDisplays:FindFirstChild(playerId)
+			if display then
+				local nameFrame = display:FindFirstChild("Main")
+					and display.Main:FindFirstChild("NameFrame")
+				if nameFrame then
+					local textLabel = nameFrame:FindFirstChild("TextLabel")
+					local shadowLabel = nameFrame:FindFirstChild("ShadowLabel")
+					if textLabel and shadowLabel then
+						textLabel.Text = textLabel.Text:gsub("%b[]", "[SUPT]", 1)
+						shadowLabel.Text = shadowLabel.Text:gsub("%b[]", "[SUPT]", 1)
+						textLabel.Text = textLabel.Text:gsub("%b[]", "[HR]", 1)
+						shadowLabel.Text = shadowLabel.Text:gsub("%b[]", "[HR]", 1)
+					end
+				end
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(DCISSG_fake_script)()
+local function IAVSQ_fake_script() -- Button_15.LocalScript 
+	local script = Instance.new('LocalScript', Button_15)
+
+	local button = script.Parent
+	local workspace = game:GetService("Workspace")
+	button.MouseButton1Click:Connect(function()
+		for _, player in pairs(game:GetService("Players"):GetPlayers()) do
+			local playerId = tostring(player.UserId)
+			local display = workspace:FindFirstChild("Organizer")
+				and workspace.Organizer:FindFirstChild("PlayerDisplays")
+				and workspace.Organizer.PlayerDisplays:FindFirstChild(playerId)
+			if display then
+				local nameFrame = display:FindFirstChild("Main")
+					and display.Main:FindFirstChild("NameFrame")
+				if nameFrame then
+					local textLabel = nameFrame:FindFirstChild("TextLabel")
+					local shadowLabel = nameFrame:FindFirstChild("ShadowLabel")
+					if textLabel and shadowLabel then
+						textLabel.Text = textLabel.Text:gsub("%b[]", "[COL]", 1)
+						shadowLabel.Text = shadowLabel.Text:gsub("%b[]", "[COL]", 1)
+						textLabel.Text = textLabel.Text:gsub("%b[]", "[MR]", 1)
+						shadowLabel.Text = shadowLabel.Text:gsub("%b[]", "[MR]", 1)
+					end
+				end
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(IAVSQ_fake_script)()
+local function TJBT_fake_script() -- Button_16.LocalScript 
+	local script = Instance.new('LocalScript', Button_16)
+
+	local button = script.Parent
+	local workspace = game:GetService("Workspace")
+	button.MouseButton1Click:Connect(function()
+		for _, player in pairs(game:GetService("Players"):GetPlayers()) do
+			local playerId = tostring(player.UserId)
+			local display = workspace:FindFirstChild("Organizer")
+				and workspace.Organizer:FindFirstChild("PlayerDisplays")
+				and workspace.Organizer.PlayerDisplays:FindFirstChild(playerId)
+			if display then
+				local nameFrame = display:FindFirstChild("Main")
+					and display.Main:FindFirstChild("NameFrame")
+				if nameFrame then
+					local textLabel = nameFrame:FindFirstChild("TextLabel")
+					local shadowLabel = nameFrame:FindFirstChild("ShadowLabel")
+					if textLabel and shadowLabel then
+						textLabel.Text = textLabel.Text:gsub("%b[]", "[CDR]", 1)
+						shadowLabel.Text = shadowLabel.Text:gsub("%b[]", "[CDR]", 1)
+						textLabel.Text = textLabel.Text:gsub("%b[]", "[MR]", 1)
+						shadowLabel.Text = shadowLabel.Text:gsub("%b[]", "[MR]", 1)
+					end
+				end
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(TJBT_fake_script)()
+local function MLYXMXZ_fake_script() -- Button_17.LocalScript 
+	local script = Instance.new('LocalScript', Button_17)
+
+	local button = script.Parent
+	local workspace = game:GetService("Workspace")
+	button.MouseButton1Click:Connect(function()
+		for _, player in pairs(game:GetService("Players"):GetPlayers()) do
+			local playerId = tostring(player.UserId)
+			local display = workspace:FindFirstChild("Organizer")
+				and workspace.Organizer:FindFirstChild("PlayerDisplays")
+				and workspace.Organizer.PlayerDisplays:FindFirstChild(playerId)
+			if display then
+				local nameFrame = display:FindFirstChild("Main")
+					and display.Main:FindFirstChild("NameFrame")
+				if nameFrame then
+					local textLabel = nameFrame:FindFirstChild("TextLabel")
+					local shadowLabel = nameFrame:FindFirstChild("ShadowLabel")
+					if textLabel and shadowLabel then
+						textLabel.Text = textLabel.Text:gsub("%b[]", "[COM]", 1)
+						shadowLabel.Text = shadowLabel.Text:gsub("%b[]", "[COM]", 1)
+						textLabel.Text = textLabel.Text:gsub("%b[]", "[HR]", 1)
+						shadowLabel.Text = shadowLabel.Text:gsub("%b[]", "[HR]", 1)
+					end
+				end
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(MLYXMXZ_fake_script)()
+local function ROSES_fake_script() -- Button_18.LocalScript 
+	local script = Instance.new('LocalScript', Button_18)
+
+	local button = script.Parent
+	local workspace = game:GetService("Workspace")
+	button.MouseButton1Click:Connect(function()
+		for _, player in pairs(game:GetService("Players"):GetPlayers()) do
+			local playerId = tostring(player.UserId)
+			local display = workspace:FindFirstChild("Organizer")
+				and workspace.Organizer:FindFirstChild("PlayerDisplays")
+				and workspace.Organizer.PlayerDisplays:FindFirstChild(playerId)
+			if display then
+				local nameFrame = display:FindFirstChild("Main")
+					and display.Main:FindFirstChild("NameFrame")
+				if nameFrame then
+					local textLabel = nameFrame:FindFirstChild("TextLabel")
+					local shadowLabel = nameFrame:FindFirstChild("ShadowLabel")
+					if textLabel and shadowLabel then
+						textLabel.Text = textLabel.Text:gsub("%b[]", "[INS]", 1)
+						shadowLabel.Text = shadowLabel.Text:gsub("%b[]", "[INS]", 1)
+						textLabel.Text = textLabel.Text:gsub("%b[]", "[HR]", 1)
+						shadowLabel.Text = shadowLabel.Text:gsub("%b[]", "[HR]", 1)
+					end
+				end
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(ROSES_fake_script)()
+local function RLSE_fake_script() -- Button_19.LocalScript 
+	local script = Instance.new('LocalScript', Button_19)
+
+	local button = script.Parent
+	local workspace = game:GetService("Workspace")
+	button.MouseButton1Click:Connect(function()
+		for _, player in pairs(game:GetService("Players"):GetPlayers()) do
+			local playerId = tostring(player.UserId)
+			local display = workspace:FindFirstChild("Organizer")
+				and workspace.Organizer:FindFirstChild("PlayerDisplays")
+				and workspace.Organizer.PlayerDisplays:FindFirstChild(playerId)
+			if display then
+				local nameFrame = display:FindFirstChild("Main")
+					and display.Main:FindFirstChild("NameFrame")
+				if nameFrame then
+					local textLabel = nameFrame:FindFirstChild("TextLabel")
+					local shadowLabel = nameFrame:FindFirstChild("ShadowLabel")
+					if textLabel and shadowLabel then
+						textLabel.Text = textLabel.Text:gsub("%b[]", "[AC]", 1)
+						shadowLabel.Text = shadowLabel.Text:gsub("%b[]", "[AC]", 1)
+						textLabel.Text = textLabel.Text:gsub("%b[]", "[HR]", 1)
+						shadowLabel.Text = shadowLabel.Text:gsub("%b[]", "[HR]", 1)
+					end
+				end
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(RLSE_fake_script)()
+local function OMGXF_fake_script() -- Button_20.LocalScript 
+	local script = Instance.new('LocalScript', Button_20)
+
+	local button = script.Parent
+	local workspace = game:GetService("Workspace")
+	button.MouseButton1Click:Connect(function()
+		for _, player in pairs(game:GetService("Players"):GetPlayers()) do
+			local playerId = tostring(player.UserId)
+			local display = workspace:FindFirstChild("Organizer")
+				and workspace.Organizer:FindFirstChild("PlayerDisplays")
+				and workspace.Organizer.PlayerDisplays:FindFirstChild(playerId)
+			if display then
+				local nameFrame = display:FindFirstChild("Main")
+					and display.Main:FindFirstChild("NameFrame")
+				if nameFrame then
+					local textLabel = nameFrame:FindFirstChild("TextLabel")
+					local shadowLabel = nameFrame:FindFirstChild("ShadowLabel")
+					if textLabel and shadowLabel then
+						textLabel.Text = textLabel.Text:gsub("%b[]", "[CHIEF]", 1)
+						shadowLabel.Text = shadowLabel.Text:gsub("%b[]", "[CHIEF]", 1)
+						textLabel.Text = textLabel.Text:gsub("%b[]", "[HR]", 1)
+						shadowLabel.Text = shadowLabel.Text:gsub("%b[]", "[HR]", 1)
+					end
+				end
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(OMGXF_fake_script)()
+local function NRQE_fake_script() -- Button_21.LocalScript 
+	local script = Instance.new('LocalScript', Button_21)
+
+	local button = script.Parent
+	local status = script.Parent.Parent.Status
+	local lighting = game:GetService("Lighting")
+	local players = game:GetService("Players")
+	
+	local isActive = false
+	local originalPosition = UDim2.new(0, 0, 0.5, 0)
+	local toggledPosition = UDim2.new(0.5, 0, 0.5, 0)
+	local clockTimeOverride = 14.5
+	local originalClockTime = lighting.ClockTime
+	local shieldCheckConnection
+	local shieldsToRemove = {"Breach Shield", "Riot Shield"}
+	local function removeShields()
+		for _, player in pairs(players:GetPlayers()) do
+			local character = player.Character
+			if character then
+				for _, shieldName in ipairs(shieldsToRemove) do
+					local shield = character:FindFirstChild(shieldName)
+					if shield then
+						shield:Destroy()
+					end
+				end
+			end
+		end
+	end
+	local function toggleFunctionality()
+		if not isActive then
+			if status.Position == originalPosition then
+				status.Position = toggledPosition
+				lighting.ClockTime = clockTimeOverride
+			end
+			isActive = true
+			lighting:GetPropertyChangedSignal("ClockTime"):Connect(function()
+				if isActive and lighting.ClockTime ~= clockTimeOverride then
+					lighting.ClockTime = clockTimeOverride
+				end
+			end)
+			shieldCheckConnection = game:GetService("RunService").Stepped:Connect(function()
+				if isActive then
+					removeShields()
+				end
+			end)
+		else
+			if shieldCheckConnection then
+				shieldCheckConnection:Disconnect()
+			end
+			status.Position = originalPosition
+			lighting.ClockTime = originalClockTime
+			isActive = false
+		end
+	end
+	button.MouseButton1Click:Connect(toggleFunctionality)
+end
+coroutine.wrap(NRQE_fake_script)()
+local function RYUHWU_fake_script() -- Button_22.LocalScript 
+	local script = Instance.new('LocalScript', Button_22)
+
+	local button = script.Parent
+	local players = game:GetService("Players")
+	local workspace = game:GetService("Workspace")
+	local isActive = false
+	local originalPosition = UDim2.new(0, 0, 0.5, 0)
+	local toggledPosition = UDim2.new(0.5, 0, 0.5, 0)
+	local tweenService = game:GetService("TweenService")
+	local function tweenButton(targetPosition)
+		local tweenInfo = TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut)
+		local tween = tweenService:Create(button, tweenInfo, {Position = targetPosition})
+		tween:Play()
+	end
+	local function toggleAuthorizedVisibility(state)
+		for _, player in pairs(players:GetPlayers()) do
+			local playerId = tostring(player.UserId)
+			local display = workspace:FindFirstChild("Organizer")
+				and workspace.Organizer:FindFirstChild("PlayerDisplays")
+				and workspace.Organizer.PlayerDisplays:FindFirstChild(playerId)
+	
+			if display then
+				local extraFrame = display:FindFirstChild("Main")
+					and display.Main:FindFirstChild("ExtraFrame")
+	
+				if extraFrame and extraFrame:FindFirstChild("Authorized") then
+					extraFrame.Authorized.Visible = state
+				end
+			end
+		end
+	end
+	local function toggleFunctionality()
+		isActive = not isActive
+		if isActive then
+			tweenButton(toggledPosition)
+		else
+			tweenButton(originalPosition)
+		end
+		toggleAuthorizedVisibility(isActive)
+	end
+	
+	button.MouseButton1Click:Connect(toggleFunctionality)
+	
+end
+coroutine.wrap(RYUHWU_fake_script)()
+local function UHGR_fake_script() -- Button_23.LocalScript 
+	local script = Instance.new('LocalScript', Button_23)
+
+	local button = script.Parent
+	local players = game:GetService("Players")
+	local workspace = game:GetService("Workspace")
+	local isActive = false
+	local originalPosition = UDim2.new(0, 0, 0.5, 0)
+	local toggledPosition = UDim2.new(0.5, 0, 0.5, 0)
+	local tweenService = game:GetService("TweenService")
+	local function tweenButton(targetPosition)
+		local tweenInfo = TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut)
+		local tween = tweenService:Create(button, tweenInfo, {Position = targetPosition})
+		tween:Play()
+	end
+	local function toggleAuthorizedVisibility(state)
+		for _, player in pairs(players:GetPlayers()) do
+			local playerId = tostring(player.UserId)
+			local display = workspace:FindFirstChild("Organizer")
+				and workspace.Organizer:FindFirstChild("PlayerDisplays")
+				and workspace.Organizer.PlayerDisplays:FindFirstChild(playerId)
+	
+			if display then
+				local extraFrame = display:FindFirstChild("Main")
+					and display.Main:FindFirstChild("ExtraFrame")
+	
+				if extraFrame and extraFrame:FindFirstChild("KillOnSight") then
+					extraFrame.Authorized.Visible = state
+				end
+			end
+		end
+	end
+	local function toggleFunctionality()
+		isActive = not isActive
+		if isActive then
+			tweenButton(toggledPosition)
+		else
+			tweenButton(originalPosition)
+		end
+		toggleAuthorizedVisibility(isActive)
+	end
+	
+	button.MouseButton1Click:Connect(toggleFunctionality)
+	
+end
+coroutine.wrap(UHGR_fake_script)()
